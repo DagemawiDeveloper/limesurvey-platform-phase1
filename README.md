@@ -1,13 +1,23 @@
-# LimeSurvey Platform – Phase 1
+# LimeSurvey Platform — Phase 1
 
-This repository contains the Phase 1 setup of a survey platform based on LimeSurvey.
+An early survey-platform phase focused on establishing a clean LimeSurvey-based foundation without modifying upstream core files.
 
-Scope of Phase 1:
-- LimeSurvey installation and configuration
-- Email and basic system setup
-- Responsive landing page
-- Clean structure for future extensions
+## Phase scope
 
-The implementation avoids modifying LimeSurvey core files to maintain compatibility with future updates.
+- LimeSurvey installation/configuration planning
+- email and base-system setup
+- responsive landing-page work
+- extension-friendly structure
+- upgrade-safe approach that avoids core modifications
 
-Additional deployment and setup notes will be included as development progresses.
+## Repository status
+
+This public repository currently contains the **Phase 1 project record/documentation rather than the proprietary deployed source tree**. It is retained as historical context and is not one of my primary code-review repositories.
+
+For current engineering examples, see:
+
+- **[SaaS Architecture Showcase](https://github.com/DagemawiDeveloper/saas-architecture-showcase)** — multi-tenant architecture, queues, security and observability
+- **[RelayHub](https://github.com/DagemawiDeveloper/laravel-api-integration-demo)** — Laravel APIs, signed webhooks, retries and idempotency
+- **[WP Integration Toolkit](https://github.com/DagemawiDeveloper/wordpress-plugin-development-demo)** — WordPress/PHP plugin and integration architecture
+
+> Current proprietary survey-platform development is kept private. Public repositories contain only code and architecture that can be safely shared.
